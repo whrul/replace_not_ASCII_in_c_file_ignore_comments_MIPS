@@ -1,1 +1,5 @@
-# replace_not_ASCII_in_c_file_ignore_comments_MIPS
+# Replace not ASCII symbols
+# Author: Walerij Hrul
+
+The program takes file with correct code in C/C++ and replace not ASCII symbols with \xnn sequences.
+Program saves not ASCII symbols that occur in comments

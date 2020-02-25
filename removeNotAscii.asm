@@ -1,8 +1,8 @@
 # Author: Walerij Hrul
 #
-# Program przetwarzający tekst poprawnego programu w języku
-# C poprzez zastępowanie w stałych znakowych (pojedynczych znakach i łańcuchach)
-# znaków spoza zakresu ASCII odpowiednimi sekwencjami \xnn.
+# Program takes file with correct code in C/C++
+# and replace not ASCII symbols with \xnn sequences
+# Program saves not ASCII symbols that occur in comments
 #
 # registers used:
 #	$s0 - input file descriptor
@@ -40,8 +40,6 @@
 #	$t3 - high half of byte
 #	$t4 - diff for calculating ASCII codes for hex > 9
 #
-
-
 # -------------------------------------------------------------------------------------------------------------------------
 	.data
 inputFileName:
