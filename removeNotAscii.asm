@@ -1,8 +1,8 @@
 # Author: Walerij Hrul
 #
 # Program takes file with correct code in C/C++
-# and replace not ASCII symbols with \xnn sequences
-# Program saves not ASCII symbols that occur in comments
+# and replace non-ASCII symbols with \xnn sequences
+# Program saves non-ASCII symbols that occur in comments
 #
 # registers used:
 #	$s0 - input file descriptor
